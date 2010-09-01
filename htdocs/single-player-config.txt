@@ -1,0 +1,12 @@
+bgcolor=ffffff
+bgcolor1=ffffff
+bgcolor2=ffffff
+buttoncolor=aaaaaa
+slidercolor1=aaaaaa
+slidercolor2=aaaaaa
+textcolor=aaaaaa
+volumewidth=50
+autoplay=0
+showvolume=1
+showinfo=0
+showloading=always

@@ -1,0 +1,56 @@
+body {
+    background-image: url('/img/background.png');
+    background-repeat: repeat-x;
+    font-family: verdana, helvetica, arial, sans-serif;
+    color: #666;
+    height: 500px;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+#header-wrapper {
+    margin: 63px auto 0;
+    width: 900px;
+    text-align: left
+}
+
+#content-wrapper {
+    margin: 0 auto;
+    width: 900px;
+    text-align: left;
+}
+
+#main-column {
+    position: relative;
+    top: 40px;
+    left: 250px;
+    width: 640px;
+    border: 0;
+}
+
+.player {
+    height: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ff0000;
+    background-color: #ff3333;
+    font-size: 10px;
+}
+
+.player-download-wrapper {
+    float: right;
+    width: 100px;
+    text-align: center;
+}
+
+.player-download {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+.player-download a {
+    color: white;
+    text-decoration: none;
+}
