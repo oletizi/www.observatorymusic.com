@@ -6,6 +6,10 @@ body {
     height: 500px;
 }
 
+h1 {
+    font-size: 14px;
+}
+
 h2 {
     font-size: 12px;
 }
@@ -17,14 +21,23 @@ h2 {
 }
 
 #content-wrapper {
+    position: relative;
     margin: 0 auto;
     width: 900px;
     text-align: left;
 }
 
+#left-column {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 212px;
+    font-size: 12px;
+}
+
 #main-column {
-    position: relative;
-    top: 40px;
+    position: absolute;
+    top: 10px;
     left: 250px;
     width: 640px;
     border: 0;
@@ -59,11 +72,6 @@ h2 {
     width: 60px;
 }
 
-/*.player-download {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3px;
-}*/
 .player-download a {
     color: white;
     text-decoration: none;
