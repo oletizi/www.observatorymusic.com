@@ -66,13 +66,20 @@ h2 {
     background-color: white;
 }
 .player-download {
-    position: relative;
-    left: 275px;
-    top: -37px;
-    width: 60px;
+    position: absolute;
+    left: 265px;
+    top: 3px;
+    width: 30px;
 }
 
-.player-download a {
+.hirez-download {
+    position: absolute;
+    left: 310px;
+    top: 3px;
+    width: 30px;
+}
+
+.hirez-download a, .player-download a {
     color: white;
     text-decoration: none;
 }
