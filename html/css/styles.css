@@ -20,6 +20,11 @@ h2 {
     text-align: left
 }
 
+#social-links {
+  position: relative;
+  top: 10px;
+}
+
 #content-wrapper {
     position: relative;
     margin: 0 auto;
